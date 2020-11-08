@@ -2,9 +2,9 @@ type Props = {
   title: string
 }
 
-const foo = 'blabla'
+const fowwwo = 'blabla'
 
-export default function Hom    e({ title = 'React' }: Props) {
+export default function Home({ title = 'React' }: Props) {
   return (
     <>
       oiiiii
