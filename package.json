@@ -17,8 +17,10 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix", "yarn test --bail"
-    ]
+      "yarn lint --fix",
+      "yarn test --bail"
+    ],
+    "*.js": "eslint --cache --fix"
   },
   "dependencies": {
     "next": "10.0.1",
